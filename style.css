@@ -190,6 +190,10 @@ h2{
 
 @media (max-width: 640px) {
 
+    footer{
+        overflow: hidden;
+    }
+
 figure{
     display: none;
 }
@@ -203,7 +207,7 @@ main {
     grid-template-columns: 1fr;
   }
   h1{
-    font-size: 42px;  
+    font-size: 38px;  
   }
   h2{
     font-size: 25px;  
@@ -215,4 +219,24 @@ main {
     align-items: flex-start;
     justify-content: center;
     }
+    .nav-social{
+        position: absolute;
+        bottom: 80px;
+        right: 100px;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 2;
+        list-style: none;
+        padding: 0 10px;
+    }
+      
+      .nav-social li {
+        padding: 0 10px;
+      }
+    
+      .redes{
+          height: 32px;
+          width: 32px;
+      }
+
 }
