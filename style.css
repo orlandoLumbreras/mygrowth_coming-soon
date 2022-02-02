@@ -35,21 +35,30 @@ header nav, main, footer{
 
 /* nav social */
 
-.nav-social{
+footer{
     position: absolute;
     bottom: 110px;
     right: 180px;
-    display: flex;
+    display:flex;
+    justify-content: flex-end;
+    z-index: 2;
+    list-style: none;
+    
+}
+  
+  footer li {
+    padding: 0 10px;
+  }
+
+  footer ul{
+    bottom: 110px;
+    right: 180px;
+    display:flex;
     justify-content: flex-end;
     z-index: 2;
     list-style: none;
     padding: 0 10px;
-}
-  
-  .nav-social li {
-    padding: 0 10px;
   }
-
   .redes{
       height: 32px;
       width: 32px;
@@ -190,18 +199,35 @@ h2{
 
 @media (max-width: 640px) {
 
-    footer{
-        overflow: hidden;
+    footer {
+
+        right: 0;
+        position:relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        list-style: none;
+         bottom: 150px;
+         
+
+    
+    
+    }
+    footer ul{
+        align-items: center;
+        padding-left: 0;
+       
     }
 
 figure{
     display: none;
 }
 
-.hero_image{
+.hero_image{    
     background-size: cover;
-    background-position: right;
-    display: none;
+    background-position: center;
+    
 }
 main {
     grid-template-columns: 1fr;
@@ -221,8 +247,7 @@ main {
     }
     .nav-social{
         position: absolute;
-        bottom: 80px;
-        right: 100px;
+        align-items: center;
         display: flex;
         justify-content: flex-end;
         z-index: 2;
@@ -237,6 +262,11 @@ main {
       .redes{
           height: 32px;
           width: 32px;
+          margin: 10px;
       }
+      
+    
+          
+      
 
 }
