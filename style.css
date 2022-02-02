@@ -208,7 +208,7 @@ h2{
         align-items: center;
         z-index: 2;
         list-style: none;
-         bottom: 150px;
+         bottom: 50px;
          
 
     
@@ -238,13 +238,6 @@ main {
   h2{
     font-size: 25px;  
   }
-  .title-home{
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    }
     .nav-social{
         position: absolute;
         align-items: center;
@@ -266,7 +259,23 @@ main {
       }
       
     
-          
+      .title-home{
+          border: solid yellow;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        overflow: hidden;
+       
+        align-items: center;
+	
+        }   
+        .logo{
+            padding: 0;
+        }
+
+    
       
 
 }
