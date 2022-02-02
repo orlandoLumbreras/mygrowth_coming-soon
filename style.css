@@ -202,4 +202,17 @@ figure{
 main {
     grid-template-columns: 1fr;
   }
+  h1{
+    font-size: 42px;  
+  }
+  h2{
+    font-size: 25px;  
+  }
+  .title-home{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    }
 }
