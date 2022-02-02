@@ -199,6 +199,10 @@ h2{
 
 @media (max-width: 640px) {
 
+    body{
+        height: 100vh;
+    }
+
     footer {
 
         right: 0;
