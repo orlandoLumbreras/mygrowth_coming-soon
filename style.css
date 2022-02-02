@@ -208,13 +208,14 @@ h2{
         align-items: center;
         z-index: 2;
         list-style: none;
-         bottom: 10px;
+         top: 0px;
          
 
     
     
     }
     footer ul{
+        
         align-items: center;
         padding-left: 0;
        
