@@ -234,6 +234,7 @@ figure{
 main {
     grid-template-columns: 1fr;
     display: block;
+    height: 10px;
   }
   h1{
     font-size: 38px;  
