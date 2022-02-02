@@ -227,6 +227,7 @@ figure{
 .hero_image{    
     background-size: cover;
     background-position: center;
+    height: 180px;
     
 }
 main {
@@ -260,7 +261,7 @@ main {
       
     
       .title-home{
-          border: solid yellow;
+         
         padding: 30px;
         display: flex;
         flex-direction: column;
