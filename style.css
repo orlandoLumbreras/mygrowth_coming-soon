@@ -208,7 +208,7 @@ h2{
         align-items: center;
         z-index: 2;
         list-style: none;
-         top: 0px;
+         border: solid red;
          
 
     
@@ -271,6 +271,7 @@ main {
         justify-content: center;
         align-items: center;
         margin-top: 0;
+        padding-bottom: 0;
 
 
         }   
