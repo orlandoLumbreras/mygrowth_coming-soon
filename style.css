@@ -208,7 +208,8 @@ h2{
         align-items: center;
         z-index: 2;
         list-style: none;
-         border: solid red;
+        
+         overflow: hidden;
          
 
     
@@ -272,6 +273,7 @@ main {
         align-items: center;
         margin-top: 0;
         padding-bottom: 0;
+        overflow: hidden;
 
 
         }   
