@@ -208,7 +208,7 @@ h2{
         align-items: center;
         z-index: 2;
         list-style: none;
-         bottom: 50px;
+         bottom: 150px;
          
 
     
@@ -225,13 +225,15 @@ figure{
 }
 
 .hero_image{    
+    position: relative;
     background-size: cover;
     background-position: center;
-    height: 180px;
+    height: 220px;
     
 }
 main {
     grid-template-columns: 1fr;
+    display: block;
   }
   h1{
     font-size: 38px;  
@@ -262,19 +264,15 @@ main {
     
       .title-home{
          
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+    position:relative;
+        display:flex;
         justify-content: center;
-        overflow: hidden;
-       
         align-items: center;
-	
+        margin-top: 0;
+
+
         }   
-        .logo{
-            padding: 0;
-        }
+   
 
     
       
